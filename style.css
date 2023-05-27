@@ -1,0 +1,562 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.body{
+    cursor: url(myBall.cur),auto;
+}
+
+/* nav-bar */
+
+.background-img{
+    background-image:url(blue_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.home{
+    display: flex;
+    border-bottom:3px solid rgb(178, 38, 175) ;
+    width: 50px;
+}
+.nav-left{
+
+    display: flex;
+    margin: 50px;
+    position: absolute;
+    top: 0px;
+}
+
+.nav-left img{
+    width: 150px;
+    height: 80px;
+    padding-right: 20px;
+    
+}
+.nav-left a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 18px;
+    font-weight:inherit;
+    font-weight: 100;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgba(138, 47, 174, 0.764);
+    margin: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding-right: 20px;
+    
+}
+.nav-left a:hover {
+    color: aliceblue;
+    background-color: rgba(118, 24, 213, 0.272);
+    transition: all .8s ease;  
+}
+
+/* nav-right */
+
+.nav-right{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 75px;
+    right: 70px;
+    border-radius: 20px ;
+}
+.nav-right input {
+    outline: none;
+    width: 110px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bolder;
+    border: 0px solid;
+    border-radius: 20px ;
+    background-color: rgb(255, 255, 255);
+    color: rgba(159, 23, 146, 0.887);
+    box-shadow:1px 2px 10px   rgb(132, 0, 255) ;
+   
+}
+
+.nav-right input:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(159, 23, 146, 0.887);
+    box-shadow:1px 2px 10px black ;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
+  
+
+}
+
+/* middle */
+
+.sec1{
+    max-width: 0px;
+    position: absolute;
+    top: 90px;
+    left:710px;
+}
+.img1{
+    max-width:600px;
+    height:650px;
+}
+.img2{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    max-width:500px;
+    height:400px;  
+}
+.img3{
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    width:350px;
+    height:190px;  
+}
+.waves{
+    position: absolute;
+    top: 530px;
+    right:300px ;
+    width: 1400px;
+    height: 250px;
+}
+.para1{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    
+  
+   
+}
+.para1 h2{
+    color:rgb(128, 111, 128) ;
+    font-size: 49px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
+
+}
+.para1 h2 span{
+    color: rgb(132, 0, 255);
+}
+.para1 p{
+    padding-top: 20px;
+    color:rgb(101, 24, 101) ;
+    font-size: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* sec2 */
+
+.sec2-img{
+    max-width: 1000px;
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+.sec2 .img4 img{
+    width: 1100px;
+    height: 700px;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+/* --------------------  */
+.sec2 .img5 img{
+    position:absolute;
+    top: 195px;
+    left: 120px;
+    width: 150px;
+    
+}
+.sec2 .img5 img:hover{
+    /* transform: translate(10px,10px); */
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+
+.sec2 .img5 h3{
+    color: rgb(117, 18, 209);
+    font-size: 23px;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 320px;
+    left: 70px;
+
+}
+.sec2 .img5 pre{
+    color: rgb(118, 39, 125);
+    font-size: 17px;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 360px;
+    left: 20px;
+}
+
+/* ------------------- */
+
+.sec2 .img6 img{
+    position: absolute;
+    top: 380px;
+    left: 545px;
+    width: 150px;  
+}
+.sec2 .img6 img:hover{
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+
+.sec2 .img6 h3{
+    color: rgb(127, 19, 229);
+    font-size: 23px;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 500px;
+    left: 510px;
+ 
+}
+.sec2 .img6 pre{
+    color: rgb(118, 39, 125);
+    font-size: 17px;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 540px;
+    left: 420px;
+}
+
+/* --------------------- */
+
+.sec2 .img7 img{
+    position: absolute;
+    top: 690px;
+    left: 880px;
+    width: 170px; 
+}
+
+.sec2 .img7 img:hover{
+    transform: scale(1.2);
+    transition: all 1s ease;
+   
+}
+
+
+.sec2 .img7 h3{
+    color: rgb(119, 0, 230);
+    font-size: 21px;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top:795px ;
+    left: 920px;
+    
+}
+.sec2 .img7 pre{
+    color: rgb(118, 39, 125);
+    font-size: 17px;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top:830px ;
+    left: 710px;
+  
+}
+/* ------------------- */
+
+.sec2 .img8 img{
+   width: 390px;
+   height: 350px;
+   position: relative;
+   bottom: 50px;
+   left: 50px;
+
+}
+
+
+.sec2 .img8 p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 780px;
+    left: 150px;
+}
+.sec2 .img8 h6{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: unset;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 815px;
+    left: 150px;
+    text-shadow: 1px 2px 10px black;
+}
+
+
+/* sec3 */
+
+.sec3{
+    position: relative;
+    top: -330px;
+   
+    
+}
+
+.sec3 .img1 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 500px;
+    left: 180px;
+}
+/* ---------------- */
+
+.sec3 .img2 img{
+    width: 380px;
+    height: 300px;
+    position: absolute;
+    top: 350px;
+    left: 310px;
+}
+
+.sec3 .img2 h3{
+    color: rgb(119, 0, 230);
+    font-size: 21px;
+    font-family: Helvetica, Arial, sans-serif;
+    position: relative;
+    top: 650px;
+    left: 390px;
+}
+.sec3 .img2 pre{
+    color: rgb(118, 39, 125);
+    font-size: 17px;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top:690px ;
+    left: 355px;
+}
+
+/* ---------------- */
+
+.sec3 .img3 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 135px;
+    left: 810px;
+}
+
+.img-foot{
+   width: 100%;
+   height: 450px;
+   position: absolute;
+   top:750px ;
+}
+.img-foot2{
+    width: 590px;
+    height: 400px;
+    position: absolute;
+    top:800px ;
+    left: 630px;
+}
+
+/* apps */
+.apps{
+    display: flex;
+}
+.sec3 .app-store {
+    display: flex;
+    align-items: center;
+    border: 0px solid black;
+    border-radius: 12px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:1050px;
+    left: 50px;
+    padding-left: 10px;
+    box-shadow:1px 3px 15px   rgb(0, 0, 0) ;
+}
+.sec3 .app-store:hover{
+    background-color: rgba(214, 198, 230, 0.272);
+    color: white;
+    transform: scale(1.1);
+    transition: all 1s ease;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
+  
+}
+.sec3 .app-store img {
+    width: 25px;
+}
+.sec3 .app-store p{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.sec3 .app-store span{
+    display: flex;
+    font-size: 10pX;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-left: 2px
+}
+/* -------------------- */
+
+.google-play{
+    display: flex;
+    align-items: center;
+    border: 0px solid black;
+    border-radius: 12px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:1050px;
+    left: 200px;
+    padding-left: 10px;
+    box-shadow:1px 3px 10px   rgb(0, 0, 0) ;
+}
+.sec3 .google-play:hover{
+    background-color: rgba(203, 195, 212, 0.272);
+    color: white;
+    transform: scale(1.1);
+    transition: all 1s ease;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
+  
+}
+.google-play img{
+    width: 25px;
+}
+.google-play p{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.google-play span{
+    display: flex;
+    font-size: 10pX;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-left: 2px
+   
+}
+
+/* -------------------- */
+
+.sec3  .icons  .icon1{
+    width: 10px;
+    position: absolute;
+    top: 1110px;
+    left:50px ;
+   
+}
+.sec3  .icons  .icon1:hover{
+    
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+/* -------------------- */
+.sec3 .icons  .icon2{
+    width: 15px;
+    position: absolute;
+    top: 1108px;
+    left:95px ; 
+}
+.sec3  .icons  .icon2:hover{
+    
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+/* -------------------- */
+.sec3 .icons  .icon3{
+    width: 15px;
+    position: absolute;
+    top: 1110px;
+    left:140px ; 
+}
+.sec3  .icons  .icon3:hover{
+    
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+/* foot */
+.sec4{
+    position: relative;
+    top: 0px;
+}
+
+.sec4 .a1{
+   position: absolute;
+   top: 180px;
+   left: 50px;
+   color: rgba(255, 255, 255, 0.872);
+   font-size: 18px;
+   font-family: Helvetica, Arial, sans-serif; 
+   text-decoration: none;
+}
+.sec4 .a2{
+   position: absolute;
+   top: 180px;
+   left: 150px;
+   color: rgba(255, 255, 255, 0.872);
+   font-size: 18px;
+   font-family: Helvetica, Arial, sans-serif; 
+   text-decoration: none;
+}
+.sec4 .a3{
+   position: absolute;
+   top: 180px;
+   left: 250px;
+   color: rgba(255, 255, 255, 0.872);
+   font-size: 18px;
+   font-family: Helvetica, Arial, sans-serif; 
+   text-decoration: none;
+}
+.sec4 .a4{
+   position: absolute;
+   top: 180px;
+   left: 360px;
+   color: rgba(255, 255, 255, 0.872);
+   font-size: 18px;
+   font-family: Helvetica, Arial, sans-serif; 
+   text-decoration: none;
+  
+}
+.sec4 a :hover {
+    color: rgb(144, 12, 159);
+    transition: all .5s ease;
+   
+  
+}
+@media  only screen and (max-width:1080px){
+
+    .middle{
+        padding: 0px 50px;
+    }
+    .left_side{
+        display: none;
+    }
+    .right_side{
+        width: 50px;
+    }
+    
+}
+
+
+@media  only screen and (max-width:882px){
+
+    .middle{
+        padding: 0px 3px;
+    }
+    .right_side{
+        display: none;
+    }
+    .middle{
+        display: none;
+    }
+}
+
+
+
+
